@@ -1,4 +1,4 @@
-# ponderada_geral# Análise estática do código ESP32 Web Server
+# Análise estática do código ESP32 Web Server
 
 ## 1. Introdução
 Este documento apresenta uma revisão da análise estática de um servidor web implementado em um ESP32, desenvolvido a partir do exemplo disponibilizado por Rui Santos (Random Nerd Tutorials). O código monta um servidor HTTP na porta 80 que permite acionar remotamente os GPIOs 26 e 27 por meio de requisições GET realizadas via navegador, sem qualquer camada adicional de proteção.
